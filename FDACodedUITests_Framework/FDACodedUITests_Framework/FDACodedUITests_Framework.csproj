@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2603BB5-A29E-4D23-9B23-FB61D12A91F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FDACodedUITests_Framework</RootNamespace>
+    <AssemblyName>FDACodedUITests_Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>True</IsCodedUITest>
+    <TestProjectType>CodedUITest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight, Version=11.0.0.0, Culture=neutral, PublicKeyToken=374b4c93160c098c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\AppConfig.cs" />
+    <Compile Include="Config\PlaybackConfig.cs" />
+    <Compile Include="FDASharePointUITest.cs" />
+    <Compile Include="Library\Application\HomePage.cs" />
+    <Compile Include="Library\Utility\Browser.cs" />
+    <Compile Include="Library\Utility\LibraryTemplateTypes.cs" />
+    <Compile Include="Library\Utility\Verify.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\PlaybackConfiguration.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PlaybackConfiguration.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ScreenshotConfiguration.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScreenshotConfiguration.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\CustomVideoPlayerScripts.cs" />
+    <Compile Include="Scripts\FDASharePointScriptsBase.cs" />
+    <Compile Include="Scripts\LibrariesScripts.cs" />
+    <Compile Include="Scripts\MyFDAGovScripts.cs" />
+    <Compile Include="Scripts\Release2014.1.0Scripts.cs" />
+    <Compile Include="UIMaps\AllSiteContentPageUIMap.cs">
+      <DependentUpon>AllSiteContentPageUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AllSiteContentPageUIMap.Designer.cs">
+      <DependentUpon>AllSiteContentPageUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DocumentLibrariesPageUIMap.cs">
+      <DependentUpon>DocumentLibrariesPageUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DocumentLibrariesPageUIMap.Designer.cs">
+      <DependentUpon>DocumentLibrariesPageUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\HomePageUIMap.cs">
+      <DependentUpon>HomePageUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\HomePageUIMap.Designer.cs">
+      <DependentUpon>HomePageUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\MyFDAGovHomeUIMap.cs">
+      <DependentUpon>MyFDAGovHomeUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\MyFDAGovHomeUIMap.Designer.cs">
+      <DependentUpon>MyFDAGovHomeUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\MyFDAGovMyContentPageUIMap.cs">
+      <DependentUpon>MyFDAGovMyContentPageUIMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\MyFDAGovMyContentPageUIMap.Designer.cs">
+      <DependentUpon>MyFDAGovMyContentPageUIMap.uitest</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Library\Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\App.config" />
+    <None Include="TestData\UploadDocData.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TestData\UploadToSharedDocumentsData.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="UIMaps\AllSiteContentPageUIMap.uitest" />
+    <None Include="UIMaps\DocumentLibrariesPageUIMap.uitest" />
+    <None Include="UIMaps\HomePageUIMap.uitest" />
+    <None Include="UIMaps\MyFDAGovHomeUIMap.uitest" />
+    <None Include="UIMaps\MyFDAGovMyContentPageUIMap.uitest" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\PlaybackConfiguration.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PlaybackConfiguration.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScreenshotConfiguration.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScreenshotConfiguration.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

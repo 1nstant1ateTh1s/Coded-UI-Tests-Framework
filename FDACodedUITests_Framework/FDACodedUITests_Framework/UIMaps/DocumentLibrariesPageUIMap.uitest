@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="8.0.7601.17514" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 7 Enterprise " WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.1.7601 Service Pack 1" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1366" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="768" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="4" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+      <Setting Name="Silverlight" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <AssertAction UIObjectName="DocumentLibrariesPageUIMap.DocumentLibraryBrowser.DocumentLibraryPage.DocumentLibraryListViewTable.ItemRow">
+      <ParameterName />
+      <PropertyName>Exists</PropertyName>
+      <ExpectedValue>True</ExpectedValue>
+      <MessageOnValidationFailure>Item not added to Document Library</MessageOnValidationFailure>
+      <Type>Boolean</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="Verify the item was added to the Document Library" MarkerInformation="AssertItemAddedToLibrary">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="DocumentLibrariesPageUIMap.DocumentLibraryBrowser.DocumentLibraryPage.DocumentLibraryListViewTable.ListItemPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="192" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="DocumentLibrariesPageUIMap.DocumentLibraryBrowser.DocumentLibraryPage.DeleteDocumentHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="72" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <WebDialogAction UIObjectName="DocumentLibrariesPageUIMap.UISharedDocumentsAllDoWindow">
+      <ParameterName />
+      <PromptText />
+      <ActionType>Ok</ActionType>
+    </WebDialogAction>
+    <TestStepMarkerAction Comment="Deletes document from Document Library" MarkerInformation="DeleteDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="DocumentLibrariesPageUIMap.DocumentLibraryBrowser.DocumentLibraryPage.LibraryToolsDocumentsTabHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="48" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="DocumentLibrariesPageUIMap.DocumentLibraryBrowser.DocumentLibraryPage.UploadDocumentBtnPane.UploadDocumentImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="16" Y="53" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="DocumentLibrariesPageUIMap.DocumentLibraryBrowser.UploadDocumentFrame.UploadDocumentPage.NameFileInput">
+      <ParameterName />
+      <Value Encoded="false">C:\Users\Andrew.Brown\Documents\TESTING\Test Files\TEST WORD DOCUMENT.docx</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="DocumentLibrariesPageUIMap.DocumentLibraryBrowser.UploadDocumentFrame.UploadDocumentPage.OKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="66" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="Uploads a document to the Document Library" MarkerInformation="UploadDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="DocumentLibrariesPageUIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="DocumentLibraryBrowser" FriendlyName="New Library TEST - All Documents - Windows Interne..." SpecialControlType="BrowserWindow" SessionId="332480">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>New Library TEST - All Documents</WindowTitle>
+            <WindowTitle>Document Library Settings</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="DocumentLibraryPage" FriendlyName="New Library TEST - All Documents" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>New Library TEST - All Documents</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">New Library TEST - All Documents</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/New%20Library%20TEST/Forms/AllItems.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://sharepoint.preprod.fda.gov/New%20Library%20TEST/Forms/AllItems.aspx?InitialTabId=Ribbon.Library&amp;VisibilityContext=WSSListAndLibrary</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Hyperlink" Id="LibrarySettingsHyperlink" FriendlyName="Library Settings" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>New Library TEST - All Documents</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">Ribbon.Library.Settings.DocumentLibrarySettings-Large</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">Library
+Settings</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-cui-ctl-large</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=Ribbon.Library.Settings.DocumentLibra</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">43</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Table" Id="DocumentLibraryListViewTable" FriendlyName="Document Library List View" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                      <PropertyCondition Name="Id">onetidDoclibViewTbl0</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Type  Name  Modified  Modified By
+  
+N</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">dir=none id=onetidDoclibViewTbl0 class=m</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-listviewtable</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Row" Id="ItemRow" FriendlyName="Item" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                          <PropertyCondition Name="TagName">TR</PropertyCondition>
+                          <PropertyCondition Name="MaxDepth">2</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Class">ms-itmhover</PropertyCondition>
+                          <PropertyCondition Name="Title">TEST WORD DOCUMENT</PropertyCondition>
+                          <PropertyCondition Name="InnerText" Operator="Contains">TEST WORD DOCUMENT</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Pane" Id="ListItemPane" FriendlyName="List Item" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">TEST WORD DOCUMENT</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">ms-vb itx</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UploadDocumentBtnPane" FriendlyName="Upload Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">Ribbon.Documents.New.AddDocument-Large</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Upload DocumentUpload
+Document </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">ms-cui-ctl-large </PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=Ribbon.Documents.New.AddDocument-Larg</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">41</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Image" Id="UploadDocumentImage" FriendlyName="Upload Document" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Image</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">IMG</PropertyCondition>
+                          <PropertyCondition Name="Alt" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/_layouts/1033/images/formatmap32x32.png</PropertyCondition>
+                          <PropertyCondition Name="Src">http://sharepoint.preprod.fda.gov/_layouts/1033/images/formatmap32x32.png</PropertyCondition>
+                          <PropertyCondition Name="LinkAbsolutePath">;</PropertyCondition>
+                          <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">style="TOP: -32px; LEFT: 0px" alt="" src</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="LibraryToolsDocumentsTabHyperlink" FriendlyName=" Documents Library Tools group. Tab 1 of 2." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">
+Documents
+Library Tools group. Tab 1 of 2.</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title">Documents</PropertyCondition>
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-cui-tt-a</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class=ms-cui-tt-a title=Documents onclic</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="DeleteDocumentHyperlink" FriendlyName="Delete Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">Ribbon.Documents.Manage.Delete-Medium</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">Delete Document</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-cui-ctl-medium </PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=Ribbon.Documents.Manage.Delete-Medium</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Document" Id="DocumentLibrarySettingsPage" FriendlyName="Document Library Settings" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Document Library Settings</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Document Library Settings</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/_layouts/listedit.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://sharepoint.preprod.fda.gov/_layouts/listedit.aspx?List=%7B9DF781D9%2D1086%2D49E8%2D84BE%2D87649739ADC1%7D</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Hyperlink" Id="DeleteThisDocumentLibraryHyperlink" FriendlyName="Delete this document library" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Document Library Settings</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">ctl00_PlaceHolderMain_ctl09_RptControls_onetidListEdit2</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">Delete this document library</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">DeleteList()</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:DeleteList()</PropertyCondition>
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id=ctl00_PlaceHolderMain_ctl09_RptContro</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">63</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UploadDocumentFrame" FriendlyName="Upload Document" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Shared Documents - All Documents</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath">/_layouts/Upload.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">/_layouts/Upload.aspx?List=%7BE6CFE9AB%2D2F76%2D4A52%2D9E74%2DECC54B9DDA69%7D&amp;RootFolder=%2FShared%20Documents&amp;Source=http%3A%2F%2Fsharepoint%2Epreprod%2Efda%2Egov%2FShared%20Documents%2FForms%2FAllItems%2Easpx&amp;IsDlg=1</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class">ms-dlgFrame</PropertyCondition>
+                  <PropertyCondition Name="ControlDefinition">style="WIDTH: 601px; HEIGHT: 393px" id=D</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">4</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UploadDocumentPage" FriendlyName="Upload Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">Upload Document</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/_layouts/Upload.aspx</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://sharepoint.preprod.fda.gov/_layouts/Upload.aspx?List=%7BE6CFE9AB%2D2F76%2D4A52%2D9E74%2DECC54B9DDA69%7D&amp;RootFolder=%2FShared%20Documents&amp;Source=http%3A%2F%2Fsharepoint%2Epreprod%2Efda%2Egov%2FShared%20Documents%2FForms%2FAllItems%2Easpx&amp;IsDlg=1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="FileInput" Id="NameFileInput" FriendlyName="Name:" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">FileInput</PropertyCondition>
+                          <PropertyCondition Name="Id">ctl00_PlaceHolderMain_UploadDocumentSection_ctl03_InputFile</PropertyCondition>
+                          <PropertyCondition Name="Name">ctl00$PlaceHolderMain$UploadDocumentSection$ctl03$InputFile</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="LabeledBy">Name:</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">ms-fileinput</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=ctl00_PlaceHolderMain_UploadDocumentS</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">29</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Button" Id="OKButton" FriendlyName="OK" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Shared Documents - All Documents</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                          <PropertyCondition Name="Id">ctl00_PlaceHolderMain_ctl03_RptControls_btnOK</PropertyCondition>
+                          <PropertyCondition Name="Name">ctl00$PlaceHolderMain$ctl03$RptControls$btnOK</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="DisplayText">OK</PropertyCondition>
+                          <PropertyCondition Name="Type">button</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">ms-ButtonHeightWidth</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">accessKey=O id=ctl00_PlaceHolderMain_ctl</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">33</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UISharedDocumentsAllDoWindow" FriendlyName="Shared Documents - All Documents - Windows Interne..." SpecialControlType="BrowserWindow" SessionId="1050988">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Shared Documents - All Documents</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Shared Documents - All Documents</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UISharedDocumentsAllDoDocument" FriendlyName="Shared Documents - All Documents" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Shared Documents - All Documents</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Shared Documents - All Documents</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/Shared%20Documents/Forms/AllItems.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://sharepoint.preprod.fda.gov/Shared%20Documents/Forms/AllItems.aspx?InitialTabId=Ribbon%2EDocument&amp;VisibilityContext=WSSTabPersistence</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

@@ -1,0 +1,1446 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="8.0.7601.17514" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 7 Enterprise " WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.1.7601 Service Pack 1" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1366" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="768" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="4" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+      <Setting Name="Silverlight" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UIPersonalDocumentsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="225" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UINewDocumentNewDocumePane.UINewDocumentHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="36" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UINewDocumentCreateaneHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="64" Y="28" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIOpenDocumentWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="34" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="MyFDAGovMyContentPageUIMap.UIDocument1CompatibiliWindow.UIDocument1CompatibiliClient.UIMicrosoftWordDocumenClient" ThinkTime="8000">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">TEST</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIDocument1CompatibiliWindow.UIItemWindow.UIQuickAccessToolbarToolBar.UISaveButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="9" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UISaveAsWindow.UISaveWindow.UISaveButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="33" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <BrowserAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow">
+      <ParameterName />
+      <ActionType>Refresh</ActionType>
+    </BrowserAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIRunningapplicationsWindow.UIRunningapplicationsToolBar.UITESTdocCompatibilityButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="27" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIJumpListWindow.UIItemWindow.UIJumpListClient.UIClosewindowMenuItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="103" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <WebDialogAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow">
+      <ParameterName />
+      <PromptText />
+      <ActionType>Retry</ActionType>
+    </WebDialogAction>
+    <TestStepMarkerAction Comment="Add a new document to the Personal Documents library" MarkerInformation="AddPersonalDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UISharedDocumentsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="251" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UINewDocumentNewDocumePane.UINewDocumentHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="48" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UINewDocumentCreateaneHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="70" Y="23" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIOpenDocumentWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="46" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="MyFDAGovMyContentPageUIMap.UIDocument1CompatibiliWindow.UIDocument1CompatibiliClient.UIMicrosoftWordDocumenClient" ThinkTime="8000">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">TEST</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIDocument1CompatibiliWindow.UIItemWindow.UIQuickAccessToolbarToolBar.UISaveButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="11" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UISaveAsWindow.UISaveWindow.UISaveButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="54" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <NavigateToUrlAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow">
+      <ParameterName />
+      <Url>http://my.preprod.fda.gov/personal/andrew_brown/default.aspx?InitialTabId=Ribbon.Document&amp;VisibilityContext=WSSTabPersistence</Url>
+      <NewInstance>true</NewInstance>
+    </NavigateToUrlAction>
+    <BrowserAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow">
+      <ParameterName />
+      <ActionType>Refresh</ActionType>
+    </BrowserAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIRunningapplicationsWindow.UIRunningapplicationsToolBar.UITESTdocCompatibilityButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="28" Y="23" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIJumpListWindow.UIItemWindow.UIJumpListClient.UIClosewindowMenuItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="98" Y="5" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIWindowsInternetExploWindow.UIRetryWindow.UIRetryButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="31" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="Add a new document to the Shared Documents library" MarkerInformation="AddSharedDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UIOnetidDoclibViewTbl0Table">
+      <ParameterName />
+      <PropertyName>RowCount</PropertyName>
+      <ExpectedValue>1</ExpectedValue>
+      <MessageOnValidationFailure>Document was not added to Personal Documents library</MessageOnValidationFailure>
+      <Type>Int32</Type>
+      <PropertyCondition>AreNotEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="Validate a document was added to the Personal Documents library" MarkerInformation="AssertDocAddedToPersonalDocuments">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument.UIOnetidDoclibViewTbl0Table">
+      <ParameterName />
+      <PropertyName>RowCount</PropertyName>
+      <ExpectedValue>1</ExpectedValue>
+      <MessageOnValidationFailure>No document was uploaded to the Shared Documents library</MessageOnValidationFailure>
+      <Type>Int32</Type>
+      <PropertyCondition>AreNotEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="Validate the document count in Shared Documents library" MarkerInformation="AssertDocAddedToSharedDocuments">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UIPersonalDocumentsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="239" Y="23" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UITESTPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="77" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument1.UIDeleteDocumentHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="73" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <WebDialogAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow">
+      <ParameterName />
+      <PromptText />
+      <ActionType>Ok</ActionType>
+    </WebDialogAction>
+    <TestStepMarkerAction Comment="Delete document from Personal Documents library" MarkerInformation="DeletePersonalDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument.UISharedDocumentsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="208" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument.UITESTPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="86" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument.UIDeleteDocumentHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="76" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <WebDialogAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow">
+      <ParameterName />
+      <PromptText />
+      <ActionType>Ok</ActionType>
+    </WebDialogAction>
+    <TestStepMarkerAction Comment="Delete document from Shared Documents library" MarkerInformation="DeleteSharedDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument.UIAdddocumentHyperlink1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="49" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIDlgFramefc5b364e4debFrame.UIPersonalDocumentsUplDocument.UINameFileInput">
+      <ParameterName />
+      <Value Encoded="false">C:\Users\Andrew.Brown\Documents\TESTING\Test Files\TEST.docx</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIDlgFramefc5b364e4debFrame.UIPersonalDocumentsUplDocument.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="70" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="Upload a document to the Personal Documents library" MarkerInformation="UploadPersonalDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIBrownAndrewDocument.UIAdddocumentHyperlink">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="48" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIDlgFrame1591978ff6e2Frame.UISharedDocumentsUploaDocument.UINameFileInput">
+      <ParameterName />
+      <Value Encoded="false">C:\Users\Andrew.Brown\Documents\TESTING\Test Files\TEST.docx</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="MyFDAGovMyContentPageUIMap.UIBrownAndrewWindowsInWindow.UIDlgFrame1591978ff6e2Frame.UISharedDocumentsUploaDocument.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="Upload a document to the Shared Documents library" MarkerInformation="UploadSharedDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="MyFDAGovMyContentPageUIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIBrownAndrewWindowsInWindow" FriendlyName="Brown, Andrew * - Windows Internet Explorer" SpecialControlType="BrowserWindow" SessionId="133748">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Brown, Andrew *</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Brown, Andrew *</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIBrownAndrewDocument" FriendlyName="Brown, Andrew *" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Brown, Andrew *</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Brown, Andrew *</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/default.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://my.preprod.fda.gov/personal/andrew_brown/default.aspx</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Hyperlink" Id="UIAdddocumentHyperlink" FriendlyName="Add document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">idHomePageNewDocument</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target">_self</PropertyCondition>
+                      <PropertyCondition Name="InnerText">Add document</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/_layouts/Upload.aspx</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">http://my.preprod.fda.gov/personal/andrew_brown/_layouts/Upload.aspx?List={4CE19AD5-209E-4CE4-AD00-58461537C967}&amp;RootFolder=</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-addnew</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=idHomePageNewDocument class=ms-addnew</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">36</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Table" Id="UIOnetidDoclibViewTbl0Table" FriendlyName="onetidDoclibViewTbl0" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                      <PropertyCondition Name="Id">onetidDoclibViewTbl0</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Type  Name  Modified  Modified By
+  
+T</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">dir=none id=onetidDoclibViewTbl0 class=m</PropertyCondition>
+                      <PropertyCondition Name="RowCount">2</PropertyCondition>
+                      <PropertyCondition Name="ColumnCount">5</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-listviewtable</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">8</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="CheckBox" Id="UITESTCheckBox" FriendlyName="TEST " SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Brown, Andrew *</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">CheckBox</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                          <PropertyCondition Name="Value">on</PropertyCondition>
+                          <PropertyCondition Name="LabeledBy" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Title">TEST
+  </PropertyCondition>
+                          <PropertyCondition Name="Class">s4-itm-cbx</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class=s4-itm-cbx title="TEST&amp;#13;&amp;#10;  </PropertyCondition>
+                          <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="UIDeleteDocumentHyperlink" FriendlyName="Delete Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">Ribbon.Documents.Manage.Delete-Medium</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">Delete Document</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-cui-ctl-medium </PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=Ribbon.Documents.Manage.Delete-Medium</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">39</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="UIAdddocumentHyperlink1" FriendlyName="Add document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">idHomePageNewDocument</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target">_self</PropertyCondition>
+                      <PropertyCondition Name="InnerText">Add document</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/_layouts/Upload.aspx</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">http://my.preprod.fda.gov/personal/andrew_brown/_layouts/Upload.aspx?List={4C844FE6-FB84-4329-BD78-4610E8C4FDDD}&amp;RootFolder=</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-addnew</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=idHomePageNewDocument class=ms-addnew</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">76</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Cell" Id="UISharedDocumentsCell" FriendlyName="Shared Documents" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                      <PropertyCondition Name="Id">WebPartTitleWPQ2</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Shared Documents</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=WebPartTitleWPQ2 class=ms-WPHeaderTd </PropertyCondition>
+                      <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-WPHeaderTd</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">13</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UITESTPane" FriendlyName="TEST" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">15</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">TEST</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">ms-vb itx</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=15 class="ms-vb itx" onmouseover=OnIt</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">66</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIDlgFrame1591978ff6e2Frame" FriendlyName="DlgFrame1591978f-f6e2-4a99-b357-e7c0facb9b20" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Brown, Andrew *</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">DlgFrame1591978f-f6e2-4a99-b357-e7c0facb9b20</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/_layouts/Upload.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://my.preprod.fda.gov/personal/andrew_brown/_layouts/Upload.aspx?List={4CE19AD5-209E-4CE4-AD00-58461537C967}&amp;RootFolder=&amp;IsDlg=1</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class">ms-dlgFrame</PropertyCondition>
+                  <PropertyCondition Name="ControlDefinition">style="WIDTH: 601px; HEIGHT: 303px" id=D</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">4</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UISharedDocumentsUploaDocument" FriendlyName="Shared Documents - Upload Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">Shared Documents - Upload Document</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/_layouts/Upload.aspx</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://my.preprod.fda.gov/personal/andrew_brown/_layouts/Upload.aspx?List={4CE19AD5-209E-4CE4-AD00-58461537C967}&amp;RootFolder=&amp;IsDlg=1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="FileInput" Id="UINameFileInput" FriendlyName="Name:" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Brown, Andrew *</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">FileInput</PropertyCondition>
+                          <PropertyCondition Name="Id">ctl00_PlaceHolderMain_ctl01_ctl05_InputFile</PropertyCondition>
+                          <PropertyCondition Name="Name">ctl00$PlaceHolderMain$ctl01$ctl05$InputFile</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="LabeledBy">Name:</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">ms-fileinput</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=ctl00_PlaceHolderMain_ctl01_ctl05_Inp</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">27</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Brown, Andrew *</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                          <PropertyCondition Name="Id">ctl00_PlaceHolderMain_ctl00_RptControls_btnOK</PropertyCondition>
+                          <PropertyCondition Name="Name">ctl00$PlaceHolderMain$ctl00$RptControls$btnOK</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="DisplayText">OK</PropertyCondition>
+                          <PropertyCondition Name="Type">button</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">ms-ButtonHeightWidth</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">accessKey=O id=ctl00_PlaceHolderMain_ctl</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">29</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIDlgFramefc5b364e4debFrame" FriendlyName="DlgFramefc5b364e-4deb-4e96-8abc-1654beeb4c65" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Brown, Andrew *</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">DlgFramefc5b364e-4deb-4e96-8abc-1654beeb4c65</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/_layouts/Upload.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://my.preprod.fda.gov/personal/andrew_brown/_layouts/Upload.aspx?List={4C844FE6-FB84-4329-BD78-4610E8C4FDDD}&amp;RootFolder=&amp;IsDlg=1</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class">ms-dlgFrame</PropertyCondition>
+                  <PropertyCondition Name="ControlDefinition">style="WIDTH: 601px; HEIGHT: 303px" id=D</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">4</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UIPersonalDocumentsUplDocument" FriendlyName="Personal Documents - Upload Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">Personal Documents - Upload Document</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/_layouts/Upload.aspx</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://my.preprod.fda.gov/personal/andrew_brown/_layouts/Upload.aspx?List={4C844FE6-FB84-4329-BD78-4610E8C4FDDD}&amp;RootFolder=&amp;IsDlg=1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="FileInput" Id="UINameFileInput" FriendlyName="Name:" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Brown, Andrew *</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">FileInput</PropertyCondition>
+                          <PropertyCondition Name="Id">ctl00_PlaceHolderMain_ctl01_ctl05_InputFile</PropertyCondition>
+                          <PropertyCondition Name="Name">ctl00$PlaceHolderMain$ctl01$ctl05$InputFile</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="LabeledBy">Name:</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">ms-fileinput</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=ctl00_PlaceHolderMain_ctl01_ctl05_Inp</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">27</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Brown, Andrew *</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                          <PropertyCondition Name="Id">ctl00_PlaceHolderMain_ctl00_RptControls_btnOK</PropertyCondition>
+                          <PropertyCondition Name="Name">ctl00$PlaceHolderMain$ctl00$RptControls$btnOK</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="DisplayText">OK</PropertyCondition>
+                          <PropertyCondition Name="Type">button</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">ms-ButtonHeightWidth</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">accessKey=O id=ctl00_PlaceHolderMain_ctl</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">29</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Document" Id="UIBrownAndrewDocument1" FriendlyName="Brown, Andrew *" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Brown, Andrew *</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Brown, Andrew *</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/personal/andrew_brown/default.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://my.preprod.fda.gov/personal/andrew_brown/default.aspx?InitialTabId=Ribbon%2EDocument&amp;VisibilityContext=WSSTabPersistence</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Table" Id="UIOnetidDoclibViewTbl0Table" FriendlyName="onetidDoclibViewTbl0" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                      <PropertyCondition Name="Id">onetidDoclibViewTbl0</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Type  Name  Modified  Modified By
+  
+T</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">dir=none id=onetidDoclibViewTbl0 class=m</PropertyCondition>
+                      <PropertyCondition Name="RowCount">2</PropertyCondition>
+                      <PropertyCondition Name="ColumnCount">5</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-listviewtable</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">15</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="CheckBox" Id="UITESTCheckBox" FriendlyName="TEST " SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Brown, Andrew *</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">CheckBox</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                          <PropertyCondition Name="Value">on</PropertyCondition>
+                          <PropertyCondition Name="LabeledBy" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Title">TEST
+  </PropertyCondition>
+                          <PropertyCondition Name="Class">s4-itm-cbx</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class=s4-itm-cbx title="TEST&amp;#13;&amp;#10;  </PropertyCondition>
+                          <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="UIDeleteDocumentHyperlink" FriendlyName="Delete Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">Ribbon.Documents.Manage.Delete-Medium</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">Delete Document</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-cui-ctl-medium </PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=Ribbon.Documents.Manage.Delete-Medium</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">39</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Cell" Id="UISharedDocumentsCell" FriendlyName="Shared Documents" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                      <PropertyCondition Name="Id">WebPartTitleWPQ2</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Shared Documents</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=WebPartTitleWPQ2 class=ms-WPHeaderTd </PropertyCondition>
+                      <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-WPHeaderTd</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">13</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UINewDocumentNewDocumePane" FriendlyName="New DocumentNew Document" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">Ribbon.Documents.New.NewDocument-Large</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">New DocumentNew
+Document </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">ms-cui-ctl-large</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=Ribbon.Documents.New.NewDocument-Larg</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">39</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UINewDocumentHyperlink" FriendlyName="New Document " SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Brown, Andrew *</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">New
+Document </PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                          <PropertyCondition Name="Class">ms-cui-ctl-a2</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">aria-haspopup=true class=ms-cui-ctl-a2 r</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Hyperlink" Id="UINewDocumentCreateaneHyperlink" FriendlyName="New DocumentCreate a new document in this library...." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                      <PropertyCondition Name="Id">Ribbon.Document.All.NewDocument.Menu.ContentTypes.0-Menu32</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Target" />
+                      <PropertyCondition Name="InnerText">New DocumentCreate a new document in this library.
+ </PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">;</PropertyCondition>
+                      <PropertyCondition Name="Title">New Document</PropertyCondition>
+                      <PropertyCondition Name="Href">javascript:;</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-cui-ctl-menu ms-cui-ctl-menu32 </PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=Ribbon.Document.All.NewDocument.Menu.</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">87</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Cell" Id="UIPersonalDocumentsCell" FriendlyName="Personal Documents" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                      <PropertyCondition Name="Id">WebPartTitleWPQ3</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Personal Documents</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=WebPartTitleWPQ3 class=ms-WPHeaderTd </PropertyCondition>
+                      <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                      <PropertyCondition Name="Class">ms-WPHeaderTd</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">29</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UITESTPane" FriendlyName="TEST" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Brown, Andrew *</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">8</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">TEST</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">ms-vb itx</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id=8 class="ms-vb itx" onmouseover=OnIte</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">628</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIOpenDocumentWindow" FriendlyName="Open Document" SpecialControlType="None" SessionId="199528">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Open Document</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Open Document</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32770</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIOKWindow" FriendlyName="OK" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Open Document</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Open Document</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">OK</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIDocument1CompatibiliWindow" FriendlyName="Document1 [Compatibility Mode] - Microsoft Word" SpecialControlType="None" SessionId="265224">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Document1 [Compatibility Mode] - Microsoft Word</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Document1 [Compatibility Mode] - Microsoft Word</PropertyCondition>
+            <PropertyCondition Name="ClassName">OpusApp</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIDocument1CompatibiliClient" FriendlyName="Document1 [Compatibility Mode]" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Document1 [Compatibility Mode] - Microsoft Word</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="Name">Document1 [Compatibility Mode]</PropertyCondition>
+                <PropertyCondition Name="ControlType">Client</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIMicrosoftWordDocumenClient" FriendlyName="Microsoft Word Document" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Document1 [Compatibility Mode] - Microsoft Word</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Microsoft Word Document</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Document1 [Compatibility Mode] - Microsoft Word</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="AccessibleName">Ribbon</PropertyCondition>
+                <PropertyCondition Name="ClassName">NetUIHWND</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="ToolBar" Id="UIQuickAccessToolbarToolBar" FriendlyName="Quick Access Toolbar" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Document1 [Compatibility Mode] - Microsoft Word</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Quick Access Toolbar</PropertyCondition>
+                    <PropertyCondition Name="ControlType">ToolBar</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Button" Id="UISaveButton" FriendlyName="Save" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Document1 [Compatibility Mode] - Microsoft Word</WindowTitle>
+                      </WindowTitles>
+                      <SearchConfigurations>
+                        <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                      </SearchConfigurations>
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Save</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UISaveAsWindow" FriendlyName="Save As" SpecialControlType="None" SessionId="134156">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Save As</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Save As</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32770</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UISaveWindow" FriendlyName="&amp;Save" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Save As</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UISaveButton" FriendlyName="&amp;Save" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Save As</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Save</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIRunningapplicationsWindow" FriendlyName="Running applications" SpecialControlType="None" SessionId="131344">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Running applications</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Running applications</PropertyCondition>
+            <PropertyCondition Name="ClassName">MSTaskSwWClass</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="ToolBar" Id="UIRunningapplicationsToolBar" FriendlyName="Running applications" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Running applications</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="Name">Running applications</PropertyCondition>
+                <PropertyCondition Name="ControlType">ToolBar</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UITESTdocCompatibilityButton" FriendlyName="TEST.doc [Compatibility Mode] - Microsoft Word" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Running applications</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">TEST.doc [Compatibility Mode] - Microsoft Word</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIJumpListWindow" FriendlyName="Jump List" SpecialControlType="None" SessionId="393480">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Jump List</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Jump List</PropertyCondition>
+            <PropertyCondition Name="ClassName">DV2ControlHost</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Jump List</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">9</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIJumpListClient" FriendlyName="Jump List" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Jump List</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="MenuItem" Id="UIClosewindowMenuItem" FriendlyName="Close window" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Jump List</WindowTitle>
+                      </WindowTitles>
+                      <SearchConfigurations>
+                        <SearchConfiguration>Expand</SearchConfiguration>
+                      </SearchConfigurations>
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Close window</PropertyCondition>
+                        <PropertyCondition Name="ControlType">MenuItem</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIWindowsInternetExploWindow" FriendlyName="Windows Internet Explorer" SpecialControlType="None" SessionId="330606">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Windows Internet Explorer</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Windows Internet Explorer</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32770</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIRetryWindow" FriendlyName="&amp;Retry" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Windows Internet Explorer</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">4</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIRetryButton" FriendlyName="&amp;Retry" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Windows Internet Explorer</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Retry</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

@@ -1,0 +1,4 @@
+﻿Row,FilePath,ExpectedFileName
+"1","C:\Users\Andrew.Brown\Documents\TESTING\Test Files\TEST WORD DOCUMENT.docx","TEST WORD DOCUMENT"
+"2","C:\Users\Andrew.Brown\Documents\TESTING\Test Files\TEST EXCEL DOCUMENT.xlsx","TEST EXCEL DOCUMENT"
+"3","C:\Users\Andrew.Brown\Documents\TESTING\Test Files\TEST PDF DOCUMENT.pdf","TEST PDF DOCUMENT"

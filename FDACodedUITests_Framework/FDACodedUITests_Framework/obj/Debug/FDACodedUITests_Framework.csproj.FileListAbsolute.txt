@@ -1,0 +1,11 @@
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\obj\Debug\FDACodedUITests_Framework.Resources.PlaybackConfiguration.resources
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\obj\Debug\FDACodedUITests_Framework.Resources.ScreenshotConfiguration.resources
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\obj\Debug\FDACodedUITests_Framework.csproj.GenerateResource.Cache
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\bin\Debug\TestData\UploadDocData.csv
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\bin\Debug\TestData\UploadToSharedDocumentsData.csv
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\bin\Debug\FDACodedUITests_Framework.dll.config
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\bin\Debug\FDACodedUITests_Framework.dll
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\bin\Debug\FDACodedUITests_Framework.pdb
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\obj\Debug\FDACodedUITests_Framework.dll
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\obj\Debug\FDACodedUITests_Framework.pdb
+C:\Dev\SharePoint 2010\SharePoint UI\SharePointTesting\FDACodedUITests_Framework\FDACodedUITests_Framework\obj\Debug\FDACodedUITests_Framework.csprojResolveAssemblyReference.cache
